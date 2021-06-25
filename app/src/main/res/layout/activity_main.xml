@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8cf4e2"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etfirstvalue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:ems="10"
+            android:hint="Enter first value"
+            android:inputType="numberDecimal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:id="@+id/etSecondvalue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:ems="10"
+            android:hint="Enter second Value"
+            android:inputType="numberDecimal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tvAns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:text="TextView"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="60dp"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buAdd"
+                android:layout_width="44dp"
+                android:layout_height="82dp"
+                android:layout_weight="1"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/buSubtract"
+                android:layout_width="44dp"
+                android:layout_height="82dp"
+                android:layout_weight="1"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/buMultiply"
+                android:layout_width="44dp"
+                android:layout_height="82dp"
+                android:layout_weight="1"
+                android:text="*" />
+
+
+            <Button
+                android:id="@+id/buDivide"
+                android:layout_width="42dp"
+                android:layout_height="82dp"
+                android:layout_weight="1"
+                android:text="/" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bupower"
+            android:layout_width="282dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="50dp"
+            android:text="power" />
+        <Button
+            android:id="@+id/rem"
+            android:layout_width="282dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="50dp"
+            android:text="remainder" />
+        <Button
+            android:id="@+id/hcf"
+            android:layout_width="282dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="50dp"
+            android:text="hcf" />
+        <Button
+            android:id="@+id/lcm"
+            android:layout_width="282dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="50dp"
+            android:text="lcm" />
+        <Button
+            android:id="@+id/permu"
+            android:layout_width="282dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="50dp"
+            android:text="permutation" />
+        <Button
+            android:id="@+id/combu"
+            android:layout_width="282dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="50dp"
+            android:text="combination" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/sqt"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Enter number"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/busqrt"
+        android:layout_width="282dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="50dp"
+
+
+        android:text="Sqrt" />
+
+    <Button
+        android:id="@+id/checkprime"
+        android:layout_width="282dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="50dp"
+
+
+        android:text="check prime" />
+    <Button
+        android:layout_width="282dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="50dp"
+         android:id="@+id/cbrt"
+      android:text="cbrt"/>
+    <Button
+        android:layout_width="282dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/factorial"
+        android:text="factorial"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ff"
+            android:layout_width="44dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/fs"
+            android:layout_width="44dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/ft"
+            android:layout_width="44dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/sf"
+            android:layout_width="44dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/ss"
+            android:layout_width="44dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/st"
+            android:layout_width="44dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tf"
+            android:layout_width="44dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/ts"
+            android:layout_width="44dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/tt"
+            android:layout_width="44dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="282dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/dete"
+        android:text="deter(3X3)"/>
+    <Button
+        android:layout_width="282dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/detem"
+        android:text="deter(2X2)"/>
+
+</LinearLayout>
+    </ScrollView>
