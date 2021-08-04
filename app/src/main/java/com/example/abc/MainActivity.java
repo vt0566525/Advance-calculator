@@ -21,28 +21,29 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ff = findViewById(R.id.ff);
-        fs = findViewById(R.id.fs);
-        ft = findViewById(R.id.ft);
-        sf = findViewById(R.id.sf);
-        ss = findViewById(R.id.ss);
-        st = findViewById(R.id.st);
-        tf = findViewById(R.id.tf);
-        ts = findViewById(R.id.ts);
-        tt = findViewById(R.id.tt);
+//        ff = findViewById(R.id.ff);
+//        fs = findViewById(R.id.fs);
+//        ft = findViewById(R.id.ft);
+//        sf = findViewById(R.id.sf);
+//        ss = findViewById(R.id.ss);
+//        st = findViewById(R.id.st);
+//        tf = findViewById(R.id.tf);
+//        ts = findViewById(R.id.ts);
+//        tt = findViewById(R.id.tt);
 
         etsecondValue = findViewById(R.id.etSecondvalue);
+        etfirstvalue=findViewById(R.id.etfirstvalue);
         tvAns = findViewById(R.id.tvAns);
         buAdd = findViewById(R.id.buAdd);
         buSubtract = findViewById(R.id.buSubtract);
-        detr = findViewById(R.id.dete);
+      //  detr = findViewById(R.id.dete);
         permu=findViewById(R.id.permu);
         combu=findViewById(R.id.combu);
         buMultiply = findViewById(R.id.buMultiply);
         buDivide = findViewById(R.id.buDivide);
         bupower = findViewById(R.id.bupower);
         factorial=findViewById(R.id.factorial);
-        detrm=findViewById(R.id.detem);
+      //  detrm=findViewById(R.id.detem);
         rem=findViewById(R.id.rem);
         hcf=findViewById(R.id.hcf);
         lcm=findViewById(R.id.lcm);
@@ -67,58 +68,58 @@ public class MainActivity extends AppCompatActivity {
                 tvAns.setText("ans is = " + Ans);
             }
         });
-        detr.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                double fff, ffs,fft,ssf,sss,sst,ttf,tts,ttt, Ans;
-//                String fs=etfirstvalue.getText().toString();
-//                String ss=etsecondValue.getText().toString();
-//                if(fs.length()==0 || ss.length()==0){
-//                    Toast.makeText(getApplicationContext(),"Enter valid numbers",Toast.LENGTH_SHORT).show();
-//                    return;
-//
-//                }
-                fff = Double.parseDouble(ff.getText().toString());
-                ffs= Double.parseDouble(fs.getText().toString());
-                fft= Double.parseDouble(ft.getText().toString());
-                ssf= Double.parseDouble(sf.getText().toString());
-                sss= Double.parseDouble(ss.getText().toString());
-                sst= Double.parseDouble(st.getText().toString());
-                ttf= Double.parseDouble(tf.getText().toString());
-                tts= Double.parseDouble(ts.getText().toString());
-                ttt= Double.parseDouble(tt.getText().toString());
-                Ans=fff*(sss*ttt-sst*tts)-ffs*(ssf*ttt-sst*ttf)+fft*(ssf*tts-sss*ttf);
-
-                //     Ans = firstvalue + secondvalue;
-                tvAns.setText("ans is = " + Ans);
-            }
-        });
-        detrm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                double fff, ffs,fft,ssf,sss,sst,ttf,tts,ttt, Ans;
-//                String fs=etfirstvalue.getText().toString();
-//                String ss=etsecondValue.getText().toString();
-//                if(fs.length()==0 || ss.length()==0){
-//                    Toast.makeText(getApplicationContext(),"Enter valid numbers",Toast.LENGTH_SHORT).show();
-//                    return;
-//
-//                }
-                fff = Double.parseDouble(ff.getText().toString());
-                ffs= Double.parseDouble(fs.getText().toString());
-               // fft= Double.parseDouble(ft.getText().toString());
-                ssf= Double.parseDouble(sf.getText().toString());
-                sss= Double.parseDouble(ss.getText().toString());
+//        detr.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                double fff, ffs,fft,ssf,sss,sst,ttf,tts,ttt, Ans;
+////                String fs=etfirstvalue.getText().toString();
+////                String ss=etsecondValue.getText().toString();
+////                if(fs.length()==0 || ss.length()==0){
+////                    Toast.makeText(getApplicationContext(),"Enter valid numbers",Toast.LENGTH_SHORT).show();
+////                    return;
+////
+////                }
+//                fff = Double.parseDouble(ff.getText().toString());
+//                ffs= Double.parseDouble(fs.getText().toString());
+//                fft= Double.parseDouble(ft.getText().toString());
+//                ssf= Double.parseDouble(sf.getText().toString());
+//                sss= Double.parseDouble(ss.getText().toString());
 //                sst= Double.parseDouble(st.getText().toString());
 //                ttf= Double.parseDouble(tf.getText().toString());
 //                tts= Double.parseDouble(ts.getText().toString());
 //                ttt= Double.parseDouble(tt.getText().toString());
-                Ans=fff*sss-ffs*ssf;
-
-                //     Ans = firstvalue + secondvalue;
-                tvAns.setText("ans is = " + Ans);
-            }
-        });
+//                Ans=fff*(sss*ttt-sst*tts)-ffs*(ssf*ttt-sst*ttf)+fft*(ssf*tts-sss*ttf);
+//
+//                //     Ans = firstvalue + secondvalue;
+//                tvAns.setText("ans is = " + Ans);
+//            }
+//        });
+//        detrm.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                double fff, ffs,fft,ssf,sss,sst,ttf,tts,ttt, Ans;
+////                String fs=etfirstvalue.getText().toString();
+////                String ss=etsecondValue.getText().toString();
+////                if(fs.length()==0 || ss.length()==0){
+////                    Toast.makeText(getApplicationContext(),"Enter valid numbers",Toast.LENGTH_SHORT).show();
+////                    return;
+////
+////                }
+//                fff = Double.parseDouble(ff.getText().toString());
+//                ffs= Double.parseDouble(fs.getText().toString());
+//               // fft= Double.parseDouble(ft.getText().toString());
+//                ssf= Double.parseDouble(sf.getText().toString());
+//                sss= Double.parseDouble(ss.getText().toString());
+////                sst= Double.parseDouble(st.getText().toString());
+////                ttf= Double.parseDouble(tf.getText().toString());
+////                tts= Double.parseDouble(ts.getText().toString());
+////                ttt= Double.parseDouble(tt.getText().toString());
+//                Ans=fff*sss-ffs*ssf;
+//
+//                //     Ans = firstvalue + secondvalue;
+//                tvAns.setText("ans is = " + Ans);
+//            }
+//        });
         permu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
